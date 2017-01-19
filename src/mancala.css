@@ -1,0 +1,45 @@
+#wholedisplay {
+    float: left;
+}
+#display {
+    height: 50px;
+    padding-right: 1em;
+    float: left;
+    position: relative;
+}
+
+.mancala {
+    display: inline;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 1.5em;
+}
+
+#p2D {
+    float: left;
+    padding-right: 2em;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.pM {
+    color: orange;
+    font-size: 55px;
+}
+
+#p1D {
+    float: left;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#buttons {
+    float: left;
+    clear: left;
+}
+
+[data-selected=true]
+{
+    color: blue;
+}
